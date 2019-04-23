@@ -1,0 +1,116 @@
+0000.013 () Opened log file at time: Tue, 23 Apr 2019 08:51:51 +0000 on http://13.236.178.2
+0000.014 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.12 WP: 5.1.1 PHP: 7.2.16 (fpm-fcgi, Linux ip-172-31-0-202 4.4.0-1079-aws #89-Ubuntu SMP Tue Mar 26 15:25:52 UTC 2019 x86_64) MySQL: 8.0.15 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.3M | 2M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.014 () Free space on disk containing Updraft's temporary directory: 6509.1 MB
+0000.056 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.062 () Entity: db
+0000.062 () restore_backup(backup_file=backup_2019-04-22-1004_eWizard_010ac1836e42-db.gz, type=db, info=a:0:{}, last_one=)
+0000.062 () Unpacking backup... (backup_2019-04-22-1004_eWizard_010ac1836e42-db.gz, 3 Mb)
+0000.067 () Database successfully unpacked
+0000.067 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.067 () Using direct MySQL access; value of use_mysqli is: 1
+0000.230 () Max packet size: 32 MB
+0000.230 () Entering maintenance mode
+0000.230 () Enabling Maintenance mode&#8230;
+0000.233 () Backup created by: 1.16.10
+0000.233 () Backup of: https://ewizard.cf
+0000.242 () Site home: http://ewizard.cf
+0000.242 () Content URL: https://ewizard.cf/wp-content
+0000.242 () Uploads URL: http://ewizard.cf/wp-content/uploads
+0000.242 () Old table prefix: wp_
+0000.242 () Site information: multisite=0
+0000.247 () New table prefix: wp_
+0000.273 () Processing table (InnoDB): wp_options
+0000.799 () Restoring prior UD configuration (table: wp_options; keys: 94)
+0002.110 () Processing table (InnoDB): wp_users
+0002.201 () Processing table (InnoDB): wp_usermeta
+0002.282 () Processing table (InnoDB): wp_commentmeta
+0002.369 () Processing table (InnoDB): wp_comments
+0002.476 () Processing table (InnoDB): wp_links
+0002.540 () Processing table (InnoDB): wp_postmeta
+0006.106 () Database queries processed: 50 in 6.03 seconds
+0009.319 () Database queries processed: 100 in 9.24 seconds
+0010.989 () Processing table (InnoDB): wp_posts
+0011.426 () Processing table (InnoDB): wp_term_relationships
+0011.499 () Processing table (InnoDB): wp_term_taxonomy
+0011.576 () Processing table (InnoDB): wp_termmeta
+0011.652 () Processing table (InnoDB): wp_terms
+0011.790 () Processing table (InnoDB): wp_fuletype
+0011.835 () Database queries processed: 150 in 11.76 seconds
+0011.835 () Processing table (InnoDB): wp_nextend2_image_storage
+0011.898 () Processing table (InnoDB): wp_nextend2_section_storage
+0011.948 () Processing table (InnoDB): wp_nextend2_smartslider3_generators
+0011.980 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders
+0012.026 () Processing table (InnoDB): wp_nextend2_smartslider3_sliders_xref
+0012.068 () Processing table (InnoDB): wp_nextend2_smartslider3_slides
+0012.119 () Processing table (InnoDB): wp_revisr
+0012.176 () Processing table (InnoDB): wp_state_wise_consumption
+0012.223 () Processing table (MyISAM): wp_watu_answer
+0012.251 () Processing table (MyISAM): wp_watu_grading
+0012.267 () Processing table (MyISAM): wp_watu_master
+0012.283 () Processing table (MyISAM): wp_watu_question
+0012.304 () Processing table (MyISAM): wp_watu_takings
+0012.322 () Processing table (InnoDB): wp_wp_quiz_play_data
+0012.367 () Processing table (InnoDB): wp_wpdatacharts
+0012.404 () Processing table (InnoDB): wp_wpdatatables
+0012.439 () Processing table (InnoDB): wp_wpdatatables_columns
+0012.479 () Processing table (InnoDB): wp_year_consumption
+0012.524 () Database queries processed: 200 in 12.44 seconds
+0012.524 () UpdraftPlus Vault: this site has not been connected - check your settings
+0014.317 () Unlocking database and leaving maintenance mode
+0014.317 () Disabling Maintenance mode&#8230;
+0014.317 () Finished: lines processed: 201 in 14.24 seconds
+0014.318 () Cleaning up rubbish...
+0014.341 () Entity: plugins
+0014.341 () restore_backup(backup_file=backup_2019-04-22-1004_eWizard_010ac1836e42-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0014.342 () Unpacking backup... (backup_2019-04-22-1004_eWizard_010ac1836e42-plugins.zip, 42.6 MB)
+0014.346 () Unzipping backup_2019-04-22-1004_eWizard_010ac1836e42-plugins.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/ccf7c0dd/ using UpdraftPlus_ZipArchive, starting index 0
+0014.981 () Unzip progress: 1981 out of 10941 files (6.7 KB, plugins/visualizer/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/IOFactory.php)
+0015.223 () Unzip progress: 2982 out of 10941 files (15.4 MB, plugins/visualizer/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Cell/DataValidator.php)
+0015.537 () Unzip progress: 3983 out of 10941 files (34.3 MB, plugins/wpdatatables/lib/phpExcel/PHPExcel/CalcEngine/Logger.php)
+0015.828 () Unzip progress: 4984 out of 10941 files (53.9 MB, plugins/smart-slider-3/nextend/library/applications/system/N2SystemApplication.php)
+0016.073 () Unzip progress: 5985 out of 10941 files (64.9 MB, plugins/wp-file-manager/lib/codemirror/mode/css/gss.html)
+0016.256 () Unzip progress: 6986 out of 10941 files (74.7 MB, plugins/watu/views/options.html.php)
+0016.408 () Unzip progress: 7987 out of 10941 files (81.3 MB, plugins/wp-phpmyadmin-extension/lib/phpMyAdmin_BSUvNaE4toY0xXQA8PZw6CL/themes/pmahomme/css/common.css.php)
+0016.629 () Unzip progress: 8988 out of 10941 files (91.3 MB, plugins/wp-phpmyadmin-extension/lib/phpMyAdmin_BSUvNaE4toY0xXQA8PZw6CL/tmp/twig/04/04bc4a4a01bc947a4f0d25592b8ee5037e9fb0bc7efc5d957599066e37b6055b.php)
+0017.003 () Unzip progress: 9989 out of 10941 files (111.2 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Iterator/ChunkedIterator.php)
+0017.246 () Unzip progress: 10941 out of 10941 files (122 MB, plugins/wp-quiz/vendor/cmb2/cmb2/includes/types/CMB2_Type_Text.php)
+0017.260 () Moving old data: filesystem method / updraft_dir is potentially possible
+0017.260 () Moving old data: can potentially use wp_filesystem method / -old
+0017.260 () Moving old data out of the way...
+0018.696 () Top-level entities being moved: all-in-one-seo-pack, simple-tags, akismet, all-in-one-wp-migration, google-analytics-for-wordpress, index.php, wp-mail-smtp, jetpack, hello.php, updraftplus, amazon-polly
+0018.700 () Moving unpacked backup into place...
+0019.132 () Top-level entities being moved: astra-sites, visualizer, wpdatatables, gitium, default_library_puvox.php, fd-elementor-button-plus, elementor, modal-for-elementor, wptables, cloudflare-flexible-ssl, smart-slider-3, wp-file-manager, quiz-cat, popup-maker, index.php, watu, wp-phpmyadmin-extension, wpforms-lite, updraftplus, ultimate-addons-for-gutenberg, simple-embed-code, wp-quiz, image-switcher, wpfront-scroll-top, wp-charts
+0019.135 () Cleaning up rubbish...
+0019.153 () Entity: themes
+0019.153 () restore_backup(backup_file=backup_2019-04-22-1004_eWizard_010ac1836e42-themes.zip, type=themes, info=a:2:{s:4:"path";s:52:"/opt/bitnami/apps/wordpress/htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0019.154 () Unpacking backup... (backup_2019-04-22-1004_eWizard_010ac1836e42-themes.zip, 2.7 MB)
+0019.154 () Unzipping backup_2019-04-22-1004_eWizard_010ac1836e42-themes.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/cc24c24a/ using UpdraftPlus_ZipArchive, starting index 0
+0019.285 () Unzip progress: 693 out of 693 files (6.3 MB, themes/twentynineteen/js/priority-menu.js)
+0019.286 () Moving old data: filesystem method / updraft_dir is potentially possible
+0019.286 () Moving old data: can potentially use wp_filesystem method / -old
+0019.286 () Moving old data out of the way...
+0019.318 () Top-level entities being moved: twentyseventeen, twentynineteen, index.php, twentysixteen
+0019.318 () Moving unpacked backup into place...
+0019.342 () Top-level entities being moved: twentyseventeen, astra, twentynineteen, index.php, twentysixteen
+0019.343 () Cleaning up rubbish...
+0019.359 () Entity: uploads
+0019.359 () restore_backup(backup_file=backup_2019-04-22-1004_eWizard_010ac1836e42-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:53:"/opt/bitnami/apps/wordpress/htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0019.359 () Unpacking backup... (backup_2019-04-22-1004_eWizard_010ac1836e42-uploads.zip, 134.4 MB)
+0019.359 () Unzipping backup_2019-04-22-1004_eWizard_010ac1836e42-uploads.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/a149391f/ using UpdraftPlus_ZipArchive, starting index 0
+0020.725 () Unzip progress: 561 out of 940 files (100 MB, uploads/2019/04/Video-short.mp4)
+0021.125 () Unzip progress: 940 out of 940 files (135.4 MB, uploads/2019/03/water-sports-01.jpg)
+0021.134 () Moving old data: filesystem method / updraft_dir is potentially possible
+0021.134 () Moving old data: can potentially use wp_filesystem method / -old
+0021.134 () Moving old data out of the way...
+0021.135 () Moving unpacked backup into place...
+0021.206 () Cleaning up rubbish...
+0021.222 () Entity: others
+0021.222 () restore_backup(backup_file=backup_2019-04-22-1004_eWizard_010ac1836e42-others.zip, type=others, info=a:2:{s:4:"path";s:45:"/opt/bitnami/apps/wordpress/htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0021.223 () Unpacking backup... (backup_2019-04-22-1004_eWizard_010ac1836e42-others.zip, 0 MB)
+0021.223 () Unzipping backup_2019-04-22-1004_eWizard_010ac1836e42-others.zip to /opt/bitnami/apps/wordpress/htdocs/wp-content/upgrade/8833c6bc/ using UpdraftPlus_ZipArchive, starting index 0
+0021.230 () Unzip progress: 20 out of 20 files (213 B, ari-adminer-config.php-old)
+0021.232 () PHP event: code E_WARNING: copy(): The first argument to copy() function cannot be a directory (line 247, wp-admin/includes/class-wp-filesystem-direct.php)
+0021.241 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/opt/bitnami/apps/wordpress/htdocs/wp-content/languages-old)
+0021.241 () Restore failed...
+0021.241 () Error message: Could not move old files out of the way. You should check the file ownerships and permissions in your WordPress installation (/opt/bitnami/apps/wordpress/htdocs/wp-content/languages-old)
+0021.241 () Restore failed
